@@ -87,15 +87,15 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 85px;
-    height: 750px;
-    background: url("img/gfgf.jpg");
+    padding-top: 0.01px;
+    height: 800px;
+
 
 }
 
 .intro__inner {
-    max-width: 970px;
-    width: 100%;
+    max-width: auto;
+    width: auto;
     margin: 0 auto;
 
 }
@@ -121,14 +121,14 @@ p {
 }
 
 .team__photo {
-    display: block;
-    max-width: 100%;
+    display: flex;
+    max-width: 60%;
     height: auto;
 }
 
 .team__name {
     font-size: 22px;
-    color: #2d3033;
+    color: white;
     margin-bottom: 9px;
     text-align: center;
 }
@@ -156,6 +156,13 @@ p {
 
 }
 
+body {
+    background-image: url("img/Untitled-3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
 
 
 
