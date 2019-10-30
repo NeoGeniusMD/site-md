@@ -21,6 +21,10 @@ body {
     font-size: 16px;
     color: #818181;
 }
+.servicii{
+    display: flex;
+
+}
 
 figure, p, address {
     margin: 0;
@@ -301,6 +305,19 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
+.language{
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 15px;
+    align-items: center;
+    float: left;
+}
+
+
+.ru1{
+    padding: 0 10px;
+}
+
 
 /*=================================================================
     Home Slider
@@ -371,7 +388,7 @@ h1.navbar-brand {
     display: block;
     font-size: 24px;
     margin-bottom: 45px;
-    text-transform: capitalize;
+
 }
 
 .caption-content p {
@@ -897,7 +914,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/slide_bg.png);
     padding: 0;
 }
 
@@ -1224,6 +1241,7 @@ textarea.form-control {
         font-size: 14px;
     }
 
+
     .parallax {
         background-position: centet tip !important;
     }
@@ -1439,6 +1457,15 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+@media only screen and (max-width: 355px) {
+    .limba{
+        font-size: 13px;
+
+
+    }
+
+
 }
 
 
