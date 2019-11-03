@@ -21,6 +21,8 @@ body {
     font-size: 16px;
     color: #818181;
 }
+
+
 .servicii{
     display: flex;
 
@@ -306,17 +308,21 @@ h1.navbar-brand {
 }
 
 .language{
+
     display: flex;
     padding-top: 6px;
     padding-bottom: 15px;
     align-items: center;
-    float: left;
+    float: right;
+
+
+}
+.ru{
+    margin-left: 9px;
+
 }
 
 
-.ru1{
-    padding: 0 10px;
-}
 
 
 /*=================================================================
@@ -1241,6 +1247,13 @@ textarea.form-control {
         font-size: 14px;
     }
 
+    .language{
+        float:left;
+        margin-left: 14px;
+
+
+    }
+
 
     .parallax {
         background-position: centet tip !important;
@@ -1376,7 +1389,22 @@ textarea.form-control {
         margin: 0 7px;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 790px;
+        padding-left: 0px;
+        padding-right: 30px;
+        margin-right: 10px;
 
+    }
+    .nav>li>a {
+        padding: 10px 11px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+}
 
 /*============================================================
     Mobile (Landscape) Design for a width of 480px
@@ -1466,6 +1494,13 @@ textarea.form-control {
     }
 
 
+}
+@media only screen and (max-width: 282px) {
+
+    .header {
+
+        margin-bottom: -50px
+    }
 }
 
 
