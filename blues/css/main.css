@@ -305,15 +305,20 @@ h1.navbar-brand {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
+
 }
 
+
+
 .language{
+    position: relative;
 
     display: flex;
     padding-top: 6px;
     padding-bottom: 15px;
     align-items: center;
     float: right;
+    left: 25px;
 
 
 }
