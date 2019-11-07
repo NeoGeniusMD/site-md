@@ -9,8 +9,8 @@ $email = $_POST['user_email'];
 $token = "1015682144:AAEvqWNcoT3Y3EMeOwcalfd162OOdi9YVIQ";
 $chat_id = "-1001344991527";
 $arr = array(
-  'Numele de Utilizator: ' => $name,
-  'Telefon: ' => $phone,
+  'Имя пользователя: ' => $name,
+  'Телефон: ' => $phone,
   'Email' => $email
 );
 
