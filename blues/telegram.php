@@ -6,12 +6,14 @@
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
+$comments = $_POST['comments'];
 $token = "1015682144:AAEvqWNcoT3Y3EMeOwcalfd162OOdi9YVIQ";
 $chat_id = "-1001344991527";
 $arr = array(
   'Numele de Utilizator: ' => $name,
   'Telefon: ' => $phone,
-  'Email' => $email
+  'Email' => $email,
+  'Comentariul' => $comments
 );
 
 foreach($arr as $key => $value) {
