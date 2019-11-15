@@ -1,17 +1,19 @@
 <?php
 
-/* https://api.telegram.org/bot992055921:AAFkoTpKcknMowa8jUFblB0noV-FNsI8xfU/getUpdates,
+/* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
-$name = $_POST['first_name'];
-$email = $_POST['email_address'];
-$coment = $_POST['comments'];
-$token = "992055921:AAFkoTpKcknMowa8jUFblB0noV-FNsI8xfU";
-$chat_id = "-206263142";
+$name = $_POST['user_name'];
+$phone = $_POST['user_phone'];
+$email = $_POST['user_email'];
+$comments = $_POST['comments'];
+$token = "1015682144:AAEvqWNcoT3Y3EMeOwcalfd162OOdi9YVIQ";
+$chat_id = "-1001344991527";
 $arr = array(
-  'Numele Utilizatorului: ' => $name,
-  'Comentariul: ' => $coment
-  'Email' => $email
+  'Numele de Utilizator: ' => $name,
+  'Telefon: ' => $phone,
+  'Email' => $email,
+  'Comentariul' => $comments
 );
 
 foreach($arr as $key => $value) {

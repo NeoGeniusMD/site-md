@@ -23,6 +23,33 @@ body {
 }
 
 
+.sign{
+
+    float: right;
+    padding: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.sign__inner:hover{
+
+    color: rgba(255, 0, 0, .5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .servicii{
     display: flex;
 
@@ -302,7 +329,7 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: #009EE3;
     font-size: 15px;
     text-transform: uppercase;
 
